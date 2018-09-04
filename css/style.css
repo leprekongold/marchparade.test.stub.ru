@@ -1,0 +1,75 @@
+header{
+	margin-top: 26px;;
+    margin-bottom: 31px;
+}
+@media only screen and (max-width: 480px){
+header {
+    margin-top: 10px;
+    margin-bottom: 0px;
+}
+}
+#logo{
+	padding: 0;
+}
+#logo a{
+	font-family: Talldark;
+    font-size: 82px;
+    letter-spacing: 0.05em;
+    color: #554348;
+    font-weight: 400 !important;
+    text-decoration: none;
+}
+#logo a:hover{
+	text-decoration: none;
+}
+.fz18{
+	font-size: 30px;
+	text-transform: uppercase;
+	font-family: 'Poiret One', cursive;
+	text-align: right;	
+	line-height: 82px;
+	padding: 0;
+}
+
+@media   (max-width: 768px) {
+	.fz18{
+	font-size: 25px;
+}
+}
+
+@media   (max-width: 575px) {
+	.fz18{
+	text-align: center;
+	font-size: 30px;
+	line-height: 35px;
+}
+}
+
+@media   (max-width: 575px) {
+	#logo{
+	text-align: center;
+}
+}
+.item img{
+	margin: auto;
+	height: auto;
+	width: 100%;
+}
+footer{
+	background-color: #00cecb;
+    padding: 35px 0 30px 0;
+}
+.sw{
+	color: #fff;
+    text-shadow: 0px 0px 0px rgba(255,255, 255, 1) !important;
+    font-weight: 400
+}
+.fz12 {
+    font-size: 18px;
+    text-align: center;
+}
+@media   (max-width: 768px) {
+	.fz12{
+	font-size: 12px;
+}
+}
